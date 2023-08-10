@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی حدس</title>
+    <link rel="stylesheet" href="gtw.css">
+    <link rel="preconnect" href="//fdn.fontcdn.ir">
+    <link rel="preconnect" href="//v1.fontapi.ir">
+    <script src="jquery.min.js"></script>
+    <link href="https://v1.fontapi.ir/css/Sahel:300;400;600;700;900" rel="stylesheet">
+</head>
+
+<body>
+    <audio src="https://www.fesliyanstudios.com/play-mp3/387" id="click-audio"></audio>
+    <audio src="https://www.soundjay.com/misc/fail-trombone-01.mp3" id="faild-audio"></audio>
+   
+    <div class="container"> 
+        <div class="hep">       
+            <div class="helpinfo">یه فرصت ازت میگیرم و حرف بعدیو بهت میدم</div>
+    </div>
+        <div class="chance">
+            <p>فرصت باقیمانده: <span id="chance"></span></p>
+
+        </div>
+
+        <div class="hint"><span><b>راهنما: </b><b id="hint"></b></span></div>
+        <div class="wrapper">
+            <div id="user-input-section">
+
+            </div>
+
+        </div>
+        <div id="message"><span></span></div>
+        <div class="wrapper2">
+            <div id="letter-container">
+
+            </div>
+            <div class="help1"> <button id="help" onclick="helpHandler()"> راهنما </button>
+            </div>
+
+        </div>
+         <div id="startsection" class="startsection">
+
+            <div id="startsection-texts">
+                <h1 id="startsection-title"><h1>اینجا باید کلمات رو قورت بدی!</h1>
+               <div id="startsection-text"><p >با زدن دکمه شروع وارد بازی میشی، حواست به فرصت‌هات باشه.</p></div> 
+
+            </div>
+            <button class="button-74"  id="button-74">شروع بازی</button>
+        </div>
+        <div class="gameover"><h1>باختی!!!</h1><br><p id="true"></p>
+           
+            
+        </div>
+    </div>
+    <script src="main1.js"></script>
+
+</html>
