@@ -76,6 +76,10 @@ const questions = [
 {
   question: "جانوری ک مغز ندارد",
     answer: "ستارهدریایی"
+},
+{
+  question: "",
+    answer: ""
 }
 
 ];
